@@ -1,6 +1,6 @@
 html, body { margin:0; padding:0; }
 html { background-color: #FEEBA0;}
-body { font-family: 'IBM Plex Mono', monospace; }
+body { font-family: 'IBM Plex Mono', monospace; font-size: 18px;}
 section { 
     min-height: 100vh; 
     padding:0 10%; 
@@ -29,10 +29,14 @@ section.intro img { grid-row-start:3;}
 
 section.contents { background-color: #481D01; grid-template-rows: 20vh auto; }
 section.contents a { color:#ffffff;}
-section.contents h2 {  font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 4rem; text-align: left; color: white; margin-bottom:0; }
+section.contents h2 {  font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 3rem; text-align: left; color: white; margin-bottom:0; }
 section.contents ul { color: #ffffff; }
+section.contents li { font-size: 1rem;}
 section.contents a:visited { color: #eeeeee;}
+
+section.resources h2 {  font-family: 'IBM Plex Sans', sans-serif; font-weight:600; font-size: 3rem; text-align: left; color: white; margin-bottom:0; }
 section.resources { background-color:#F5631A;}
+
 @media (max-width: 600px) {
     section.intro h1 { font-size:2rem; }
     section.intro h2 { font-size:2rem; }
